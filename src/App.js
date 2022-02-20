@@ -5,7 +5,7 @@ import Note from './components/Note'
 import Footer from './components/Footer'
 import Notification from './components/Notification'
 import LoginForm from './components/LoginForm'
-import Togglable from './components/Toggable'
+import Togglable from './components/Togglable'
 import NoteForm from './components/NoteForm'
 import propTypes from 'prop-types'
 
@@ -131,7 +131,7 @@ const App = () => {
         user === null ?
           loginForm() :
           <div>
-            <p>{user.username} logged-in</p>
+            <p>{user.username} logged in</p>
             {noteForm()}
           </div>        
       }
